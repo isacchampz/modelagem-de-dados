@@ -1,0 +1,69 @@
+{
+  "config": "{\"version\":\"5.57\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU08\",\"version\":\"5.57\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU08",
+            "path": "BaseThemes/CY24SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "708aaf49a3e0315206db",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"012cff008479930c10c6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":289.84802431610944,\"y\":289.84802431610944,\"z\":3,\"width\":280.1215805471125,\"height\":280.1215805471125,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(amostra_evg (1).carga_horaria)\"}],\"Category\":[{\"queryRef\":\"amostra_evg (1).municipio_pessoa\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"amostra_evg (1)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"carga_horaria\"}},\"Function\":0},\"Name\":\"Sum(amostra_evg (1).carga_horaria)\",\"NativeReferenceName\":\"Soma de carga_horaria\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"municipio\"},\"Name\":\"amostra_evg (1).municipio_pessoa\",\"NativeReferenceName\":\"municipio\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"carga_horaria\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.12,
+          "width": 280.12,
+          "x": 289.85,
+          "y": 289.85,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"7b53cf84ed6728a65c0c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"amostra_evg (1).nome_curso\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(amostra_evg (1).carga_horaria)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"amostra_evg (1)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"carga_horaria\"}},\"Function\":0},\"Name\":\"Sum(amostra_evg (1).carga_horaria)\",\"NativeReferenceName\":\"Soma de carga_horaria\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"curso\"},\"Name\":\"amostra_evg (1).nome_curso\",\"NativeReferenceName\":\"curso\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"carga_horaria\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"c0ee7c474480bd9ed226\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":280,\"height\":280,\"z\":2,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(amostra_evg (1).carga_horaria)\"}],\"Category\":[{\"queryRef\":\"amostra_evg (1).uf_pessoa\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"amostra_evg (1)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"carga_horaria\"}},\"Function\":0},\"Name\":\"Sum(amostra_evg (1).carga_horaria)\",\"NativeReferenceName\":\"Soma de carga_horaria\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"estado\"},\"Name\":\"amostra_evg (1).uf_pessoa\",\"NativeReferenceName\":\"estado\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"carga_horaria\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 290.00,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"f039dc4ad96637081970\",\"layouts\":[{\"id\":0,\"position\":{\"x\":289.84802431610944,\"y\":0,\"z\":1,\"width\":280.1215805471125,\"height\":280.1215805471125,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(amostra_evg (1).carga_horaria)\"}],\"Category\":[{\"queryRef\":\"amostra_evg (1).tematica\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"amostra_evg (1)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"carga_horaria\"}},\"Function\":0},\"Name\":\"Sum(amostra_evg (1).carga_horaria)\",\"NativeReferenceName\":\"Soma de carga_horaria\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"materia\"},\"Name\":\"amostra_evg (1).tematica\",\"NativeReferenceName\":\"materia\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"carga_horaria\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.12,
+          "width": 280.12,
+          "x": 289.85,
+          "y": 0.00,
+          "z": 1.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
